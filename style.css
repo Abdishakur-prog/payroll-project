@@ -1,0 +1,64 @@
+ .bs {
+     display: flex;
+     justify-content: space-around;
+     margin-right: 600px;
+
+
+ }
+
+ .textbox {
+     margin-left: 10px;
+     display: flex;
+     justify-content: space-between;
+     width: 150px;
+     height: 35px;
+     background: rgb(199, 188, 188);
+     border-radius: 5px;
+     font-size: 30px;
+ }
+
+ button {
+     background: orange;
+     color: aliceblue;
+     border: 1px solid green;
+     margin-left: 40px;
+     font-size: 30px;
+     color: black;
+     margin-left: 50px;
+     
+ }
+
+ .divone {
+     color: rgb(6, 175, 231);
+ }
+
+ .divtwo {
+     font-size: 30px;
+ }
+ td,th{
+    border: 1px;
+    background-color: rgb(231, 236, 227);
+     text-align:left ;
+     border-collapse: collapse;
+     border-width: 40px;
+     height: 40px;
+border-color: black;
+font-size: 30px;
+ }
+ table{
+    width: 100%;
+    
+ }
+  body{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .results{
+    text-align: right;
+  }
+  td{
+    text-align: right;
+  }
+
+
+ 
