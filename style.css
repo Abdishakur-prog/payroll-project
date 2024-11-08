@@ -1,4 +1,4 @@
- .bs {
+ /* .bs {
      display: flex;
      justify-content: space-around;
      margin-right: 600px;
@@ -22,9 +22,12 @@
      color: aliceblue;
      border: 1px solid green;
      margin-left: 40px;
-     font-size: 30px;
+     font-size: 20px;
      color: black;
      margin-left: 50px;
+     border-radius: 20%;
+    text-align:center ;
+     
      
  }
 
@@ -61,4 +64,133 @@ font-size: 30px;
   }
 
 
- 
+  */
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+    color: #ffffff;
+}
+
+/* Header section */
+.divone {
+    background-color: #af4e4c;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+.divtwo {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    width: 80%;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.divtwo h1 {
+    font-size: 1.8em;
+    color: #4CAF50;
+}
+
+.divtwo p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Form styling */
+.divthree {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 80%;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.bs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+label {
+    font-size: 1.5em;
+    color: #333;
+    margin-right: 10px;
+}
+
+.textbox {
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 1.2em;
+}
+
+.textbox input {
+    border: none;
+    outline: none;
+    font-size: 1em;
+    width: 120px;
+    padding-left: 5px;
+}
+
+button {
+    background-color: #e94d22;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #d60d0d;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+thead th {
+    background-color: #ee0101;
+    color: white;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+tbody th, tbody td {
+    padding: 10px;
+    text-align: left;
+    font-size: 1.1em;
+    color: #333;
+    border-bottom: 1px solid #ccc;
+}
+
+tbody td {
+    text-align: right;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
